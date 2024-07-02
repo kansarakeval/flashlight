@@ -47,10 +47,4 @@ class FlashlightController extends GetxController {
       startStrobe();
     }
   }
-
-  @override
-  void onClose() {
-    strobeTimer?.cancel();
-    super.onClose();
-  }
 }
